@@ -1,0 +1,43 @@
+body{
+    background-color: #d4d4d6;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagembackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 440px ;
+    background: rgb(238, 238, 238);
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+    opacity: 80%;
+     
+}
+.container p{
+    font-weight: bold;
+}
+
+.frm-row{
+    margin-bottom: 12px;
+
+}
+
+.frm-row label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.frm-row input{
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px spçid #ccc;
+    height: 18px;
+    font-size: 1.2rem;
+}
