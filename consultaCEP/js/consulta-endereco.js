@@ -39,9 +39,6 @@ function popularForm(resposta) {
         return;
     }
    
-    let tamanho = cep.length;
-    console.log(tamanho);
-
     console.log(resposta);
     rua.value = resposta.logradouro;
     bairro.value = resposta.bairro;
